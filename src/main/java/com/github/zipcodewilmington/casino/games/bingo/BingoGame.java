@@ -58,6 +58,7 @@ public class BingoGame  {
     }
 
     public static void main(String[] args) {
+        System.out.println("Welcome To Bingo!" + "\n");
         BingoGame bingoGame = new BingoGame();
 
         PlayerBoard player1 = new PlayerBoard(1);
@@ -71,5 +72,5 @@ public class BingoGame  {
     }
 
     public List<PlayerBoard> getPlayerBoards() {
-    return playerBoards;}
+        return playerBoards;}
 }
